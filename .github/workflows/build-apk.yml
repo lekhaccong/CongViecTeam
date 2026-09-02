@@ -28,11 +28,11 @@ jobs:
         working-directory: android
         run: bash gradlew assembleDebug lintDebug --no-daemon --stacktrace
       - name: Name APK
-        run: cp android/app/build/outputs/apk/debug/app-debug.apk CongViecTeam-1.0.0.apk
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk CongViecTeam-1.1.0.apk
       - uses: actions/upload-artifact@v4
         with:
           name: CongViecTeam-APK
-          path: CongViecTeam-1.0.0.apk
+          path: CongViecTeam-1.1.0.apk
           if-no-files-found: error
           retention-days: 30
   server-test:
