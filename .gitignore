@@ -1,0 +1,10 @@
+**/node_modules/
+**/data/
+**/backups/
+**/*.sqlite*
+**/build/
+**/.gradle/
+**/local.properties
+*.jks
+*.keystore
+.env
