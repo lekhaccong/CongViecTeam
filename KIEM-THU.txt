@@ -1,0 +1,18 @@
+CongViecPro LAN 0.1.0 - bản thử nghiệm tại nhà
+Source: https://github.com/lekhaccong/cong/pull/1
+Commit: 7937272d37d6f5d51989828dd641b3842edc48eb
+
+PASS: TypeScript và build:native của app tích hợp.
+PASS: test API đăng nhập, quyền Admin/User, chặn xem báo cáo/ảnh người khác,
+phiên bản báo cáo cũ, lý do vướng, gửi duyệt/trả lại/duyệt, khóa User,
+XLSX và rollback khi trùng mã, CSRF khác origin, lưu dữ liệu qua khởi động lại,
+sao lưu/khôi phục với bản giữ lại và vô hiệu phiên cũ.
+PASS: thao tác browser desktop/mobile tạo Admin, tạo User, giao việc,
+báo cáo 60% đang vướng, gửi 100% chờ duyệt, Admin duyệt, nhập XLSX.
+Không có lỗi JavaScript runtime hoặc tràn ngang mobile ở các màn đã kiểm tra.
+
+CHƯA XÁC MINH: chạy trực tiếp trên Windows 10 và Android thật.
+KHÔNG KÈM NODE.JS: cần cài Node.js 24 LTS trên máy Windows.
+KÈM THƯ VIỆN: có node_modules dùng chung cho Windows/Linux (JavaScript).
+KHÔNG KÈM DỮ LIỆU/TÀI KHOẢN: tự tạo Admin tại localhost lần chạy đầu.
+Bản thử HTTP chỉ dùng dữ liệu giả, chưa triển khai công ty.
